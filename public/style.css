@@ -1,0 +1,123 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.phnNo{
+   width: 330px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header {
+  background-color: #fff;
+  height: 45px;
+}
+header a img {
+  width: 134px;
+  margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 3% 0 0;
+  margin: auto;
+
+}
+
+
+
+.login-page .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  background: #ffffff;
+  max-width: fit-content;
+  margin: 0 auto 90px;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 20 10 100px 0 rgba(237, 9, 9, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 30px;
+   
+}
+
+.myBtn{
+  text-align: center;
+  width: 300px;
+  background-color: #48858a;
+  border: 0.2px solid;
+  border-radius: 70px;
+  line-height: 1.5rem;
+  padding: 3px 3px 3px auto;
+}
+
+.myBtn:hover{
+  background-image: linear-gradient(to right, #418cd2, #609d9d, #725660 , #615645);
+  box-shadow: 0 4px 15px 0 rgba(81, 69, 72, 0.75);
+}
+
+
+.form input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 100px;
+  text-align: left;
+  line-height: 1rem;
+}
+
+
+/* hover  */
+
+
+
+
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.form .message a {
+  color: #4d595a;
+  text-decoration: none;
+}
+
+p{
+    font-size: 14px;
+}
+.container {
+  height: min-content;
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fefefe;
+  background-image: linear-gradient(45deg, #328f8a, #14acca);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
